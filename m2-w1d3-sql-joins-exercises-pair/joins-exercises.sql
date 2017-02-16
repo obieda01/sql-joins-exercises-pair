@@ -63,14 +63,12 @@ WHERE language = 'English' and isofficial = 'true';
 -- 9. The names of all of the continents and the population of the continent’s largest city
 --    Expected rows: 6, largest population for North America: 8,591,309
 
-<<<<<<< HEAD
 
-=======
 SELECT MAX (city.population), continent from city 
 JOIN country c on c.code = city.countrycode
 GROUP by continent
 ORDER by MAX(city.population) DESC;
->>>>>>> d7b579279c72f210d9ccc3cd6fd10ba0804785b5
+
 
 -- 10. The names of all of the cities in South America that have a population of more than 1 million people and the official language of each city’s country
 --     Expected rows: 29
