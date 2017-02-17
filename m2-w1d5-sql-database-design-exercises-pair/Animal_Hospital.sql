@@ -1,8 +1,4 @@
-BEGIN TRANSACTION
 
-CREATE DATABASE AnimalHospital
-
-COMMIT
 BEGIN TRANSACTION
 CREATE TABLE owner
 (
@@ -10,7 +6,7 @@ CREATE TABLE owner
 	lastName varchar(100) not null,
 	firstName varchar(100) not null,
 	
-	constraint pk_contactId primary key (contactId)
+	constraint pk_ownerId primary key (ownerId)
 );
 
 CREATE TABLE address
@@ -24,7 +20,7 @@ CREATE TABLE address
 	postalCode varchar(10) not null,
 	
 	constraint pk_addressId primary key (addressId),
-	constraint fk_ownerId foreign key (ownerId) references owner(ownerId)
+	constraint fk_ownerId foreign key (ownerID) references owner(ownerId)
 	
 );
 
@@ -37,7 +33,7 @@ CREATE TABLE pet
 	petDOB datetime not null,
 	
 	constraint pk_petid primary key (petid),
-	constraint fk_ownerId foreign key (ownerId) references owner(ownerId)
+	constraint fk_ownerId1 foreign key (ownerId) references owner(ownerId)
 );	
 CREATE TABLE visit
 (
@@ -49,16 +45,15 @@ CREATE TABLE visit
 	constraint fk_petId foreign key (petId) references pet(petId)
 	
 );	
-CREATE TABLE procedure
+CREATE TABLE vetprocedure
 (
 	procedureid int identity not null,
 	name varchar (50) not null,
-	cost int not null
+	cost int not null,
 	petid int not null,
 	
 	constraint pk_procedureid primary key (procedureid),
-	constraint fk_petId foreign key (petId) references pet(petId)
+	constraint fk_petId2 foreign key (petId) references pet(petId)
 );	
 
 COMMIT
-	
