@@ -8,5 +8,5 @@ CREATE TABLE invoice (
 	date_time datetime,
 	
 	constraint pk_invoiceId_ primary key (invoiceId),
-	constraint fk_ownerId_ foreign key (ownerID) references owner(ownerId)
-)
+	constraint fk_ownerId_ foreign key (ownerID) references owner(ownerId),
+);
