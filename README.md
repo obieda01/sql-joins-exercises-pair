@@ -1,3 +1,5 @@
+# ![pageres](etc/myLogo.png)
+
 # Normalization Exercises
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
