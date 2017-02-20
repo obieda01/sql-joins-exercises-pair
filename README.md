@@ -1,5 +1,5 @@
  <p align="right" >
- <img src="etc/myLogo_big.png" height="200" width="150">
+ <img src="etc/myLogo_big.png" height="175" width="140">
 
 
 </p>
