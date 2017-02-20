@@ -1,4 +1,4 @@
- <p align="right" >
+ <p align="center" >
  <img src="etc/myLogo_big.png" height="175" width="140">
 
 
