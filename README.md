@@ -1,5 +1,6 @@
-# ![pageres](etc/myLogo.png)
-
+ <p align="center" >
+ # ![pageres](etc/myLogo.png)
+</p>
 # Normalization Exercises
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
