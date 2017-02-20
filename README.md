@@ -1,5 +1,7 @@
  <p align="right" >
- ![pageres](etc/myLogo.png = 100x100)
+ <img src="etc/myLogo.png" width="48">
+
+
 </p>
 # Normalization Exercises
 
